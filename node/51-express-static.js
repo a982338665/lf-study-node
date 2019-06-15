@@ -9,7 +9,7 @@
 var express = require('express');
 var app = express();
 
-//第一个参数：访问路径前缀
+//第一个参数：访问路径前缀node
 //第二个参数：静态文件所在位置
 //访问：http://localhost:8081/public/img/1.jpg
 app.use('/public', express.static('static'));
