@@ -102,7 +102,7 @@
        $ npm install -g cnpm --registry=https://registry.npm.taobao.org
        这样就可以使用 cnpm 命令来安装模块了：
        $ cnpm install [name]
-       
+       $  npm prefix -g  查看全局安装路径
 **2.node的模块系统:**
 
     1.为了使nodejs文件可以相互调用，提供了简单的模块系统
